@@ -29,6 +29,7 @@ var employeeArray = [
 
 for (var i = 0; i < employeeArray.length; i++) {
     content.innerHTML += `<div class="employee">
+      <div class="textWrapper">
       <div class="employeePic">
         <img src="${employeeArray[i].employeePic}">
       </div>
@@ -36,6 +37,7 @@ for (var i = 0; i < employeeArray.length; i++) {
       <div class="EmployeeInfo">
       <p>${employeeArray[i].employeeTitle}</p>
         <p>${employeeArray[i].employeeBlurb}</p>
+      </div>
       </div>
      </div>`;
 }
