@@ -40,7 +40,7 @@ cruises.push(cruiseFactory(
 							[1500, 1000, 750],
 							'Australia',
 							14,
-							['Nassau', 'Castaway Cay', 'St. Thomas', 'St. Kitts']));
+							['Bora Bora', 'Auckland', 'Sydney', 'Bay of Islands', 'Honolulu']));
 cruises.push(cruiseFactory(
 							'Unsinkable 2',
 							'princess.jpeg',
@@ -54,7 +54,7 @@ cruises.push(cruiseFactory(
 							[1000, 750, 500],
 							'Caribbean',
 							7,
-							['Cozumel', 'Grand Caymans', 'Montego Bay']));
+							['Cozumel', 'Roatan', 'Belize']));
 cruises.push(cruiseFactory(
 							'Ipsum Lorem',
 							'princess3.jpeg',

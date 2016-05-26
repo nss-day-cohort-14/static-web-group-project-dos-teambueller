@@ -28,10 +28,12 @@ var displayProduct = {
 		this.templatePs[0].textContent = `Balcony $${obj.price[0]}`;
 		this.templatePs[1].textContent = `Oceanview $${obj.price[1]}`;
 		this.templatePs[2].textContent = `Inside $${obj.price[2]}`;
+		console.log(this.templatePs[0].textContent);
  	},
  	displayClone: function() {
  		var clone2 = document.importNode(this.template.content, true);
- 		console.log(this.template.content);
+ 		// console.log(this.template.content);
+ 		console.log(clone2);
  		this.cruiseDisplayArea.appendChild(clone2);
  	},
  	getPricePoints: function(arg) {
