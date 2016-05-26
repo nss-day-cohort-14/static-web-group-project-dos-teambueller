@@ -19,7 +19,7 @@ header, article, footer {
 	margin: 0 auto;
 }
 
-img {
+.shipImg {
 	height: 10rem;
 	margin: 1rem;
 }
