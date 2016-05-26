@@ -13,13 +13,19 @@ var displayProduct = {
 	captureTemplate: function() {
 		this.template = document.getElementById('cruiseTemplate');
 		this.templateDivs = this.template.content.querySelectorAll('div');
+		this.templateImg = this.template.content.querySelectorAll('img');
+		this.templatePs = this.template.content.querySelectorAll('p');
+		console.log(this.templateImg);
 	},
 	stageClone: function(obj) {
+		this.templateImg[0].src = `./images/${obj.path}`;
 		this.templateDivs[0].textContent = obj.ship;
-		this.templateDivs[1].innerHTML = this.getPricePoints(obj.price);
 		this.templateDivs[2].textContent = obj.region;
 		this.templateDivs[3].textContent = obj.nights;
 		this.templateDivs[4].innerHTML = this.getPorts(obj.portsOfCall);
+		this.templatePs[0].textContent = obj.price[0];
+		this.templatePs[1].textContent = obj.price[1];
+		this.templatePs[2].textContent = obj.price[2];
  	},
  	displayClone: function() {
  		var clone2 = document.importNode(this.template.content, true);
