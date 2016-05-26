@@ -197,3 +197,14 @@ header {
   min-width: 150px;
 }
 
+#contactForm > * > textarea {
+  position: relative;
+  top: 50%;
+  transform: translateY(30%);
+}
+
+#contactForm > * > input {
+  position: relative;
+  top: 50%;
+  transform: translateY(-10%);
+}
