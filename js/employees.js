@@ -5,25 +5,25 @@ var employeeArray = [
     name: "Thomas Shavor",
     employeeBlurb: "Thom has been helping people <span>SEA</span> the world in style since 2010. He enjoys action movies about impossible missions.",
     employeeTitle: "<span>SEA</span>EO",
-    employeePic: "images/thom.jpg"
+    employeePic: "images/pirate4.jpg"
   },
   {
     name: "Dave Harms",
     employeeBlurb: "Dave has be <span>ANCHORING</span> our operations for 4 years. He enjoys spending time abord his boat, the 'Viatmin Sea'.",
     employeeTitle: "Lord Commander of the Nights' Watch",
-    employeePic: "images/dave.jpg"
+    employeePic: "images/pirate2.jpg"
   },
   {
     name: "Joshua Philips",
     employeeBlurb: "Josh has been <span>CRUISING</span> with us for 3 years now. He is known for designing the world famous ships 'The Unsinkable' and 'The Unsinkable II'.",
     employeeTitle: "VP of Cruise Ship Design",
-    employeePic: "images/josh.jpg"
+    employeePic: "images/pirate1.jpg"
   },
   {
     name: "Alex Craven",
     employeeBlurb: "Alex has been over<span>SEA</span>ing on-board entertainment for 3 years. He really likes beer. Like <span>A YACHT</span>.",
     employeeTitle: "VP of On-Board Entertainment",
-    employeePic: "images/alex.jpg"
+    employeePic: "images/pirate5.jpg"
   }
 ];
 
@@ -31,7 +31,7 @@ for (var i = 0; i < employeeArray.length; i++) {
     content.innerHTML += `<div class="employee">
       <div class="textWrapper">
       <div class="employeePic">
-        <img src="${employeeArray[i].employeePic}">
+        <img src="${employeeArray[i].employeePic}" class="piratePic">
       </div>
       <p class="employeeName">${employeeArray[i].name}</p>
       <div class="EmployeeInfo">
