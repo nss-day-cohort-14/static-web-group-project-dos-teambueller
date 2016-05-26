@@ -4,6 +4,7 @@ var testimonials = [
 	"I've lost that sinking feeling - Alex P.",
 	"Nothing Fishy about Thom's Cruises - Thom",
 	"The food is tasty, and the staff is disease-free - Thom",
+	"A truly Un-hole-y experience - Michael from next door",
 ]
 
 var random = Math.floor(Math.random() * testimonials.length)
